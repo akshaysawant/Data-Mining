@@ -1,0 +1,29 @@
+Input to this module: Train data and Test data files
+Output from this module: Train and Test data matrix
+
+Processing:
+Stemming (Processing -> Proces)
+Stop wording (Data and the papers are... -> Data papers...) 
+Removing special characters (Why? -> Why)
+Conversion to lower case (Data Mining -> data mining)
+Data cleaning (#Index 201825 -> 201825)
+Conversion to matrix format
+
+Output Format:
+
+1918597;toward model data proven scientif public;tariq mahmood,syed imran jami,zubair ahmed shaikh,muhammad hussain mughal;2013;standard  interfac;12,25,255;paper implement provenanceawar document publications call pads employ threelay proven hierarchy output divers type proven data relat research life cycle this generat profil research ventures reviewers authors pad employ standard open proven model opm specif captur proven data store data ontolog instances data retriev without delay execut time queries demonstr data use use recommend organizers order upcom research ventures;
+
+Column[0] = Index of the paper
+Column[1] = Title of the paper
+Column[2] = Authors of this paper (',' seperated)
+Column[3] = Publication year
+Column[4] = Publication Venue
+Column[5] = Citations of this paper (',' seperated)
+Column[6] = Abstract about this paper
+
+Execution:
+
+Compile - javac -classpath .:lib/* MatrixCreation.java
+Run - java -classpath .:lib/* MatrixCreation <Train_File/Test_File> <OutputFile>
+
+Note - Name the test data matrix as Test_Data_Matrix.txt and the train data matrix as Train_Data_Matrix.txt for the ease of running the further steps with least modification
