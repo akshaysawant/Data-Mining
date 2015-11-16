@@ -1,0 +1,17 @@
+Author Count = 1478715
+Publication Count = 1976815
+Unique Venues Count = 255573
+
+-----Publication Stats-----
+Min - 1
+Max - 1071
+Median - 1.0
+Q1 - 1.0
+Q3 - 2.0
+
+----Citation Stats------
+Min - 0
+Max - 3861
+Median - 0.0
+Q1 - 0.0
+Q3 - 8.0
